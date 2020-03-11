@@ -1,0 +1,330 @@
+body {
+    /*    background-color: #222222;*/
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    margin-top: 13px;
+}
+
+.bmt-item {
+    width: 440px;
+    /*    height: 450px;*/
+}
+
+#probel {
+    width: 520px;
+}
+
+.buy-moon-travel {
+    display: flex;
+    width: 100%;
+    /*
+    flex-direction: row;
+    flex-wrap: nowrap;
+*/
+}
+
+.moon-adevantures {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    padding-top: 125px;
+    width: 100%;
+    height: 250px;
+    background-color: #131313;
+}
+
+#on-the-moon {
+    width: 250px;
+    height: 150px;
+    padding-top: 60px;
+    padding-left: 205px;
+    color: white;
+    font-family: "Verdana";
+}
+
+header {
+    background: #222222;
+}
+
+.space-nav {
+    display: flex;
+    margin-left: 160px;
+    height: 75px;
+    width: 960px;
+}
+
+.nav-div {
+    display: flex;
+}
+
+#nav-img-1 {
+    margin-left: 860px;
+    margin-top: 20px;
+}
+
+#nav-img-2 {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+.nav-button {
+    margin-top: 60px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.q {
+    padding-left: 205px;
+    width: 300px;
+    height: 52px;
+}
+
+.qw {
+    margin-left: 62px;
+}
+
+.qwe {
+    padding-left: 34px;
+}
+
+.qwer {
+    padding-left: 34px;
+}
+
+.white-text {
+    color: white;
+}
+
+margin {
+    margin-left: 160px;
+}
+
+.margin1 {
+    padding-top: 60px;
+    padding-left: 205px;
+}
+
+.margin2 {
+    margin-left: 144px;
+}
+
+.margin3 {
+    margin-top: 65px;
+}
+
+.margin4 {
+    margin-left: 25px;
+    margin-top: 65px;
+}
+
+.margin5 {
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.margin6 {
+    padding-top: 60px;
+}
+
+.margin7 {
+    margin-top: 80px;
+}
+
+.margin8 {
+    margin-top: 70px;
+}
+
+.margin9 {
+    padding-top: 20px;
+}
+
+.margin10 {
+    margin-top: 70px;
+    position: relative;
+    left: 200px;
+}
+
+.main-heading {
+    font-family: "Courier New";
+    font-size: 24px;
+}
+
+.main-fragment {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black-text {
+    line-height: 1.8;
+
+}
+
+
+.black-text2::before {
+    content: ' ';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 5px;
+    left: -20px;
+    top: 10px;
+}
+
+
+li {
+    list-style-type: none;
+    position: relative;
+}
+
+/*
+li span {
+    color: black;
+    line-height: 1.8;
+}
+
+li strong {
+    color: black;
+}
+*/
+
+footer {
+    margin-top: 80px;
+    height: 300px;
+    background-color: #222222;
+}
+
+.footer-content {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.grey-text {
+    color: grey;
+    position: relative;
+    top: 100px;
+}
+
+.footer-fragment {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#test2 {
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+
+.foot-heading {
+    padding-bottom: 20px;
+    font-family: "Verdana";
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-bottom: solid 1.5px grey;
+}
+
+.ul-footer {
+    line-height: 2;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.li-footer {
+    color: grey;
+    list-style-type: none;
+}
+
+.rocket {
+    position: relative;
+    top: 70px;
+}
+
+.rocket::before {
+    content: url('images/rocket.png');
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    top: -80px;
+/*    bottom: 20px;*/
+}
+
+.jar{
+    position: relative;
+    top: 70px;
+}
+
+.jar::before {
+    content: url('images/jar.png');
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    top: -80px;
+}
+
+.kosmonavt {
+    position: relative;
+    top: 70px;
+}
+
+.kosmonavt::before {
+    content: url('images/kosmonavt.png');
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    top: -80px;
+}
+
+.flag {
+    position: relative;
+    top: 70px;
+}
+
+.flag::before {
+    content: url('images/flag-on-moon.png');
+    width: 60px;
+    height: 68px;
+    position: absolute;
+    top: -80px;
+}
+
+.logo-img {
+    content: url('images/logo.png');
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 20px; 
+}
+
+.on-moon-img {
+    content: url(images/space%20rocket.png);
+    position: absolute;
+    width: 438px;
+    height: 438px;
+    left: 460px;
+}
+
+.map-img {
+    content: url('images/Map.png');
+    position: absolute;
+    width: 440px;
+    height: 343px;
+    right: 800px;
+    margin-top: 100px;
+    
+}
