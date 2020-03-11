@@ -256,7 +256,7 @@ h2 {
 }
 
 .rocket::before {
-    content: url('images/rocket.png');
+    content: url('../images/rocket.png');
     width: 60px;
     height: 68px;
     position: absolute;
@@ -270,7 +270,7 @@ h2 {
 }
 
 .jar::before {
-    content: url('images/jar.png');
+    content: url('../images/jar.png');
     width: 60px;
     height: 68px;
     position: absolute;
@@ -283,7 +283,7 @@ h2 {
 }
 
 .kosmonavt::before {
-    content: url('images/kosmonavt.png');
+    content: url('../images/kosmonavt.png');
     width: 60px;
     height: 68px;
     position: absolute;
@@ -296,7 +296,7 @@ h2 {
 }
 
 .flag::before {
-    content: url('images/flag-on-moon.png');
+    content: url('../images/flag-on-moon.png');
     width: 60px;
     height: 68px;
     position: absolute;
@@ -304,7 +304,7 @@ h2 {
 }
 
 .logo-img {
-    content: url('images/logo.png');
+    content: url('../images/logo.png');
     position: absolute;
     width: 60px;
     height: 60px;
@@ -312,7 +312,7 @@ h2 {
 }
 
 .on-moon-img {
-    content: url(images/space%20rocket.png);
+    content: url('../images/space%20rocket.png');
     position: absolute;
     width: 438px;
     height: 438px;
@@ -320,7 +320,7 @@ h2 {
 }
 
 .map-img {
-    content: url('images/Map.png');
+    content: url('../images/Map.png');
     position: absolute;
     width: 440px;
     height: 343px;
